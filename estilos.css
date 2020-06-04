@@ -1,0 +1,44 @@
+body{
+        background: #fadfb0;
+            }
+    .perfil{
+        width:150px;
+        height:150px;
+        border-radius:150px;
+    }
+    .titulo{
+        color: black;
+        font-size: 30px;
+
+    }
+    .fab{
+        margin-right: 20px;
+
+    }
+    a{
+        color: black;
+    }
+    .informacion{
+        width:60%;
+        height:80px;
+        border: grey 1px solid;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: justify; 
+        border-bottom: 5px solid #7a2d15;
+    }
+    .texto{
+        margin: 30px;
+    }
+
+    .boton {
+         background-color: #60061e; /* Green */
+         border: none;
+         color: white;
+         padding: 20px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         margin: 4px 2px;
+         cursor: pointer;
+    }
