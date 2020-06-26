@@ -6,13 +6,16 @@
   font-family: JosefinSans;
   src: url(JosefinSans-VariableFont_wght.ttf);
 }
-
+@font-face {
+  font-family: IndieFlower-Regular;
+  src: url(IndieFlower-Regular.ttf);
+}
 
 
 body{
-background: #ee9ca7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #f2709c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -36,7 +39,6 @@ background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, F
      width: 135px;
      height: 150px;
      padding: 20px;
-     
 }
 
 .circular--landscape {
@@ -46,13 +48,13 @@ background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, F
   width: 150px;
   height: 150px;
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: 60%;
 }
 
 .circular--landscape img {
   width: 100%;
   height: auto;
-  margin-left: -1px;
+  margin-left: -0px;
   margin-right: 5px;
   margin-bottom: 10px;
   margin-top: -30px;
@@ -69,7 +71,7 @@ background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, F
 }
 
 .titulo{
-    font-family: JosefinSans;
+    font-family: IndieFlower-Regular;
     font-size: 30px;
     color: #fff;
 }
@@ -78,7 +80,7 @@ background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, F
     font-family: Sacramento;
     font-size: 40px;
     font-weight: bold;
-}
+    }
 
 .fab{
     color: #000;
@@ -93,11 +95,15 @@ p{
 .col-sm{
     margin: 5px;
     text-align: center;
-    background: #403A3E;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #BE5869, #403A3E);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #BE5869, #403A3E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+
+
+
 
 
 
